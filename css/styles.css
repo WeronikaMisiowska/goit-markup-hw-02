@@ -1,0 +1,165 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.logo {
+    color: #4D5AE5;
+    color: #2E2F42;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navigation {
+    color: #2E2F42;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        text-decoration: none;
+}
+
+.navigation:hover{
+    color: red;
+}
+
+.contact{
+        color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        text-decoration: none;
+}
+
+.contact:hover{
+    color: red;
+}
+
+.title{
+    background-color: #2E2F42;
+}
+
+.title .title{
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.title .button {
+    color: #FFFFFF; background-color: #4D5AE5;
+}
+
+.title .button:hover{
+    color: red
+}
+
+.section-of-work .solutions{
+        color: #2E2F42;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+
+.section-of-work{
+        color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+
+.our-team{
+    background: #F4F4FD;
+}
+
+h2{
+        color: #2E2F42;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.section-of-team .name{
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.section-of-team .profession{
+        color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.actions-name{
+        color: #2E2F42;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+
+.action-department{
+        color: #434455;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+
+.end-of-page{
+    background-color: #2E2F42;
+}
+
+.end-of-page .logo{
+    color: #4D5AE5; color: #F4F4FD;
+         font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+}
+
+.end-of-page .last-words{
+    color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}

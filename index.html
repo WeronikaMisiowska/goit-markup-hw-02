@@ -5,14 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+
+    <link rel="stylesheet" href="./css/styles.css"/> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 
 <body>
     <header>
-        <nav>
+        <nav class="logo">
             <a href="./index.html">WebStudio</a>
 
-            <ul>
+            <ul class="navigation">
                 <li><a href=" ">Studio</a></li>
                 <li><a href=" ">Portfolio</a></li>
                 <li><a href=" ">Contacts</a></li>
@@ -20,7 +26,7 @@
         </nav>
 
         <address>
-            <ul>
+            <ul class="contact">
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
@@ -28,39 +34,39 @@
     </header>
 
     <main>
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
+        <section class="title">
+            <h1 class="title">Effective Solutions for Your Business</h1>
 
-            <button type="button">Order Service</button>
+            <button type="button" class="button">Order Service</button>
         </section>
 
         <section>
             <h2>Sekcja 2</h2>
 
-            <ul>
+            <ul class="section-of-work">
                 <li>
-                    <h3>Strategy</h3>
+                    <h3 class="solutions">Strategy</h3>
                     <p>
                         Our goal is to identify the business problem to walk away with the
                         perfect and creative solution.
                     </p>
                 </li>
                 <li>
-                    <h3>Punctuality</h3>
+                    <h3 class="solutions">Punctuality</h3>
                     <p>
                         Bring the key message to the brand's audience for the best price
                         within the shortest possible time.
                     </p>
                 </li>
                 <li>
-                    <h3>Diligence</h3>
+                    <h3 class="solutions">Diligence</h3>
                     <p>
                         Research and confirm brands that present the strongest digital
                         growth opportunities and minimize risk.
                     </p>
                 </li>
                 <li>
-                    <h3>Technologies</h3>
+                    <h3 class="solutions">Technologies</h3>
                     <p>
                         Design practice focused on digital experiences. We bring forth a
                         deep passion for problem-solving.
@@ -69,38 +75,74 @@
             </ul>
         </section>
 
-        <section>
+        <section class="our-team">
             <h2>Our Team</h2>
-            <ul>
+            <ul class="section-of-team">
                 <li>
                     <img src="./images/MarkGuerrero.jpg" alt="A man with beard in blue shirt"
                         width="264" height="260" />
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                    <h3 class="name">Mark Guerrero</h3>
+                    <p class="profession">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/TomFord.jpg" alt="Smiling man in a blue shirt" width="264"
                         height="260" />
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
+                    <h3 class="name">Tom Ford</h3>
+                    <p class="profession">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/CamilaGarcia.jpg"
                         alt="A woman with long brown hair in a pink sweater" width="264" height="260" />
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                    <h3 class="name">Camila Garcia</h3>
+                    <p class="profession">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/DanielWilson.jpg" alt="Smiling man in a grey t-shirt"
                         width="264" height="260" />
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                    <h3 class="name">Daniel Wilson</h3>
+                    <p class="profession">UI Designer</p>
                 </li>
             </ul>
         </section>
+
+        <section>
+            <h2>Our Portfolio</h2>
+            <ul class="our-portfolio">
+<li>
+    <img src="./images/BankingApp.jpg" alt="Banking App" width="360" height="300" />
+    <h3 class="actions-name">Banking App</h3>
+    <p class="action-department">App</p>
+</li>
+<li>
+    <img src="./images/CashlessPayment.jpg" alt="Cashless Payment" width="360" height="300" />
+    <h3 class="actions-name">Cashless Payment</h3>
+    <p class="action-department">Marketing</p>
+</li>
+<li>
+    <img src="./images/MeditationApp.jpg" alt="Meditation App" width="360" height="300" />
+    <h3 class="actions-name">Meditation App</h3>
+    <p class="action-department">App</p>
+</li>
+<li>
+    <img src="./images/TaxiService.jpg" alt="Taxi Service" width="360" height="300" />
+    <h3 class="actions-name">Taxi Service</h3>
+    <p class="action-department">Marketing</p>
+</li>
+<li>
+    <img src="./images/ScreenIllustrations.jpg" alt="Screen Illustrations" width="360" height="300" />
+    <h3 class="actions-name">Screen Illustrations</h3>
+    <p class="action-department">Design</p>
+</li>
+<li>
+    <img src="./images/OnlineCourses.jpg" alt="A woman in yellow sweater" width="360" height="300" />
+    <h3 class="actions-name">Online Courses</h3>
+    <p class="action-department">Marketing</p>
+</li>
+</ul>
+        </section>
     </main>
 
-    <footer>
+    <footer class="end-of-page">
         <a href="./index.html">WebStudio</a>
 
         <p>

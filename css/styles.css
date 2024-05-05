@@ -26,7 +26,7 @@ body{
         text-align: left;
 }
 
-.navigation .link{
+.navigation {
     color: #2E2F42;
         font-family: Roboto;
         font-size: 16px;
@@ -37,7 +37,7 @@ body{
         text-decoration: none;
 }
 
-.navigation .logo-studio-navigation {
+.logo-studio-navigation {
     color: #2E2F42;
 }
 
@@ -59,12 +59,12 @@ body{
         text-decoration: none;
 }
 
-.e-mail{
+.contact .e-mail{
     color: #434455;
 }
 
-.e-mail:hover
-.e-mail:focus{
+.contact .e-mail:hover
+.contact .e-mail:focus{
     color: #404bbf;
 }
 
@@ -169,13 +169,17 @@ h2{
 }
 
 .end-of-page .logo{
-    color: #4D5AE5; color: #F4F4FD;
-         font-family: Raleway;
+    color: #4D5AE5;
+         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.17px;
         letter-spacing: 0.03em;
         text-align: left;
+}
+
+.logo-studio-footer{
+    color: #f4f4fd;
 }
 
 .end-of-page .last-words{

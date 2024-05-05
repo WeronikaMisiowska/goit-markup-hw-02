@@ -26,7 +26,7 @@ body{
         text-align: left;
 }
 
-.navigation {
+.navigation .link{
     color: #2E2F42;
         font-family: Roboto;
         font-size: 16px;
@@ -37,7 +37,7 @@ body{
         text-decoration: none;
 }
 
-.logo-studio-navigation {
+.navigation .logo-studio-navigation {
     color: #2E2F42;
 }
 

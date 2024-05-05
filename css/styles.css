@@ -37,12 +37,15 @@ body{
         text-decoration: none;
 }
 
-.navigation:hover{
-    color: #404bbf;
+.logo-studio-navigation:hover
+.logo-studio-navigation:focus{
+    color: #404bbf
 }
+
 
 .contact{
         color: #434455;
+        font-style: normal;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
@@ -52,8 +55,13 @@ body{
         text-decoration: none;
 }
 
-.contact:hover{
-    color: red;
+.e-mail{
+    color: #434455;
+}
+
+.e-mail:hover
+.e-mail:focus{
+    color: #404bbf;
 }
 
 .title{

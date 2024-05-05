@@ -37,8 +37,12 @@ body{
         text-decoration: none;
 }
 
-.logo-studio-navigation:hover
-.logo-studio-navigation:focus{
+.logo-studio-navigation {
+    color: #2E2F42;
+}
+
+.navigation .logo-studio-navigation:hover
+.navigation .logo-studio-navigation:focus{
     color: #404bbf
 }
 

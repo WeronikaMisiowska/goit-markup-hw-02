@@ -77,17 +77,25 @@ body{
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
-        line-height: 60px;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
+        cursor: pointer;
 }
 
 .title .button {
     color: #FFFFFF; background-color: #4D5AE5;
+    font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: left;
 }
 
-.title .button:hover{
-    color: red
+.title .button:hover,
+.title .button:focus{
+    color: #404BBF;
 }
 
 .section-of-work .solutions{

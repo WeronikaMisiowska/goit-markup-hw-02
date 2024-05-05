@@ -130,6 +130,7 @@ body{
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
 }
 
 .section-of-team .name{
@@ -150,6 +151,17 @@ body{
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: center;
+}
+
+.title-our-portfolio{
+    color: #2E2F42;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
 }
 
 .actions-name{

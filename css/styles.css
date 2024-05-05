@@ -41,7 +41,7 @@ body{
     color: #2E2F42;
 }
 
-.navigation .logo-studio-navigation:hover
+.navigation .logo-studio-navigation:hover,
 .navigation .logo-studio-navigation:focus{
     color: #404bbf
 }
@@ -63,7 +63,7 @@ body{
     color: #434455;
 }
 
-.contact .e-mail:hover
+.contact .e-mail:hover,
 .contact .e-mail:focus{
     color: #404bbf;
 }
@@ -173,7 +173,7 @@ h2{
          font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.17px;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
 }

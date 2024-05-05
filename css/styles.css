@@ -142,6 +142,10 @@ body{
         text-transform: capitalize;
 }
 
+.section-of-team .list-our-team{
+    background-color: #FFFFFF;
+}
+
 .section-of-team .name{
     color: #2E2F42;
     font-family: Roboto;

@@ -80,7 +80,6 @@ body{
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-        cursor: pointer;
 }
 
 .title .button {
@@ -91,11 +90,12 @@ body{
         line-height: 1.5;
         letter-spacing: 0.04em;
         text-align: left;
+        cursor: pointer;
 }
 
 .title .button:hover,
 .title .button:focus{
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .section-of-work .solutions{
@@ -122,12 +122,12 @@ body{
     background: #F4F4FD;
 }
 
-h2{
+.title-our-team{
         color: #2E2F42;
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
 }
